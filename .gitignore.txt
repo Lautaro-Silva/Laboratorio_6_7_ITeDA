@@ -1,3 +1,4 @@
+# Folders
 Caracterizacion_SIPM/
 
 # Jupyter Notebook
