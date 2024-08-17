@@ -1,1 +1,4 @@
 Caracterizacion_SIPM/
+
+# Jupyter Notebook
+.ipynb_checkpoints
