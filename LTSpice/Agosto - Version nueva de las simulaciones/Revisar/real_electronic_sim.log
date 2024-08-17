@@ -1,0 +1,61 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\smili\Downloads\real_electronic_sim.asc
+Start Time: Fri Jul 12 14:18:04 2024
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+v5: Removing PWL point (5.00167e-11,0)
+v5: Removing PWL point (0.00010015,0)
+v5: Removing PWL point (0.0002003,0)
+v5: Removing PWL point (0.00030045,0)
+v5: Removing PWL point (0.0004006,0)
+v5: Removing PWL point (0.00050075,0)
+v5: Removing PWL point (0.0006009,0)
+v5: Removing PWL point (0.00070105,0)
+v5: Removing PWL point (0.0008012,0)
+v5: Removing PWL point (0.00090135,0)
+v5: Removing PWL point (0.0010015,0)
+v5: Removing PWL point (0.00110165,0)
+v5: Removing PWL point (0.0012018,0)
+v5: Removing PWL point (0.00130195,0)
+v5: Removing PWL point (0.0014021,0)
+v5: Removing PWL point (0.00150225,0)
+v5: Removing PWL point (0.0016024,0)
+v5: Removing PWL point (0.00170255,0)
+v5: Removing PWL point (0.0018027,0)
+v5: Removing PWL point (0.00190285,0)
+v5: Removing PWL point (0.002003,0)
+v5: Removing PWL point (0.00210315,0)
+v5: Removing PWL point (0.0022033,0)
+v5: Removing PWL point (0.00230345,0)
+v5: Removing PWL point (0.0024036,0)
+v5: Removing PWL point (0.00250375,0)
+v5: Removing PWL point (0.0026039,0)
+v5: Removing PWL point (0.00270405,0)
+v5: Removing PWL point (0.0028042,0)
+v5: Removing PWL point (0.00290435,0)
+v5: Removing PWL point (0.0030045,0)
+v5: Removing PWL point (0.00310465,0)
+v5: Removing PWL point (0.0032048,0)
+v5: Removing PWL point (0.00330495,0)
+v5: Removing PWL point (0.0034051,0)
+v5: Removing PWL point (0.00350525,0)
+v5: Removing PWL point (0.0036054,0)
+v5: Removing PWL point (0.00370555,0)
+v5: Removing PWL point (0.0038057,0)
+v5: Removing PWL point (0.00390585,0)
+v5: Removing PWL point (0.004006,0)
+v5: Removing PWL point (0.00410615,0)
+v5: Removing PWL point (0.0042063,0)
+v5: Removing PWL point (0.00430645,0)
+v5: Removing PWL point (0.0044066,0)
+v5: Removing PWL point (0.00450675,0)
+v5: Removing PWL point (0.0046069,0)
+v5: Removing PWL point (0.00470705,0)
+v5: Removing PWL point (0.0048072,0)
+v5: Removing PWL point (0.00490735,0)
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 14.444 seconds.
+
