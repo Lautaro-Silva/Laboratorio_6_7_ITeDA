@@ -1,0 +1,65 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\Usuario\OneDrive\Desktop\ITeDA\LTSpice\Modelos Importantes\real_electronic_sim.asc
+Start Time: Mon Aug  5 02:30:40 2024
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+v5: Removing PWL point (5.00167e-11,0)
+v5: Removing PWL point (6.5005e-07,0)
+v5: Removing PWL point (1.30005e-06,0)
+v5: Removing PWL point (1.95005e-06,0)
+v5: Removing PWL point (2.60005e-06,0)
+v5: Removing PWL point (3.25005e-06,0)
+v5: Removing PWL point (3.90005e-06,0)
+v5: Removing PWL point (4.55005e-06,0)
+v5: Removing PWL point (5.20005e-06,0)
+v5: Removing PWL point (5.85005e-06,0)
+v5: Removing PWL point (6.50005e-06,0)
+v5: Removing PWL point (7.15005e-06,0)
+v5: Removing PWL point (7.80005e-06,0)
+v5: Removing PWL point (8.45005e-06,0)
+v5: Removing PWL point (9.10005e-06,0)
+v5: Removing PWL point (9.75005e-06,0)
+v5: Removing PWL point (1.04001e-05,0)
+v5: Removing PWL point (1.10501e-05,0)
+v5: Removing PWL point (1.17001e-05,0)
+v5: Removing PWL point (1.23501e-05,0)
+v5: Removing PWL point (1.30001e-05,0)
+v5: Removing PWL point (1.36501e-05,0)
+v5: Removing PWL point (1.43001e-05,0)
+v5: Removing PWL point (1.49501e-05,0)
+v5: Removing PWL point (1.56001e-05,0)
+v5: Removing PWL point (1.62501e-05,0)
+v5: Removing PWL point (1.69001e-05,0)
+v5: Removing PWL point (1.75501e-05,0)
+v5: Removing PWL point (1.82001e-05,0)
+v5: Removing PWL point (1.88501e-05,0)
+v5: Removing PWL point (1.95001e-05,0)
+v5: Removing PWL point (2.01501e-05,0)
+v5: Removing PWL point (2.08001e-05,0)
+v5: Removing PWL point (2.14501e-05,0)
+v5: Removing PWL point (2.21001e-05,0)
+v5: Removing PWL point (2.27501e-05,0)
+v5: Removing PWL point (2.34001e-05,0)
+v5: Removing PWL point (2.40501e-05,0)
+v5: Removing PWL point (2.47001e-05,0)
+v5: Removing PWL point (2.53501e-05,0)
+v5: Removing PWL point (2.60001e-05,0)
+v5: Removing PWL point (2.66501e-05,0)
+v5: Removing PWL point (2.73001e-05,0)
+v5: Removing PWL point (2.79501e-05,0)
+v5: Removing PWL point (2.86001e-05,0)
+v5: Removing PWL point (2.92501e-05,0)
+v5: Removing PWL point (2.99001e-05,0)
+v5: Removing PWL point (3.05501e-05,0)
+v5: Removing PWL point (3.12001e-05,0)
+v5: Removing PWL point (3.18501e-05,0)
+Direct Newton iteration for .op point succeeded.
+
+ones: floor(widthpulse/(3.125e-9))=2
+widthpulse=6.89099e-09 FROM 1.31859e-06 TO 1.32548e-06
+
+Total elapsed time: 6.944 seconds.
+
