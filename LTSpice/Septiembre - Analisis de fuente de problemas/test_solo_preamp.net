@@ -1,0 +1,18 @@
+* C:\Users\smili\OneDrive\Documents\GitHub\Laboratorio_6_7_ITeDA\LTSpice\Septiembre - Analisis de fuente de problemas\test_solo_preamp.asc
+R4 N001 Input_bode 1k
+V1 N003 0 5
+V5 0 N004 5
+XU2 0 N001 N003 N004 Out_PreAmp level1 Avol=1Meg GBW=100Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R5 Out_PreAmp 0 10k
+R6 Out_PreAmp N001 10k
+V2 Input_bode 0 PWL file=C:\Users\smili\OneDrive\Documents\GitHub\Laboratorio_6_7_ITeDA\Scripts\inverted_combined_photon_data_10_times.txt AC 1
+S1 Out 0 Out_PreAmp 0 SW
+V6 N002 0 100m
+R7 N002 Out 10k
+.tran 0.0012
+* .ac dec 1000 1 1e10
+.model SW SW(Vt=18.33m, Vh=0, Ron=100Meg, Roff=0.001)
+* Threshold 3PE = 5.71mV\nThreshold 2.5PE = 4.89mV
+.lib UniversalOpAmp1.lib
+.backanno
+.end
