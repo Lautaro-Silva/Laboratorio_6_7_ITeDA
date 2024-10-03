@@ -1,0 +1,25 @@
+* C:\Users\smili\OneDrive\Documents\GitHub\Laboratorio_6_7_ITeDA\LTSpice\Octubre - Test Circuitos en configuración NO Inversor\bode_circuito_completo_con_capacitores_en_preamp_inversor_actualizado.asc
+R1 N002 N004 500
+R2 Out_FS N002 25k
+V3 N006 0 5
+XU1 0 N002 N006 N008 Out_FS level1 Avol=1900 GBW=897.0831Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R3 0 Out_FS 25
+C1 N004 Out_PreAmp 5p
+C2 Out_FS N002 100f
+V1 N005 0 5
+V5 N007 0 -5
+XU2 0 N001 N005 N007 Out_PreAmp level1 Avol=1900 GBW=897.0831Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+V2 Input_bode 0 PWL file="C:\Users\smili\OneDrive\Documents\GitHub\Laboratorio_6_7_ITeDA\Presentacion-Informe Avance de Proyecto\Datos Diagrama\photon_data_25_combined.txt" AC 0.3 Rser=50
+C3 N001 N003 15p
+C4 Out_PreAmp N001 1.575p
+R4 N003 0 25
+R5 Out_PreAmp N001 1Meg
+R6 N003 N001 1Meg
+C5 N003 Input_bode 100n
+V4 N008 0 -5
+* .tran 200n
+.ac dec 1000 1 1G
+* Se actualizaron los GBWP usando el informe nuevo que me mostro Alan el otro dia. Usamos un GBWP~897Meg obtenido del grafico (analizando la amplitud y la frec).\nAdemas usamos un Avol modificado usando el voltaje al que se encontraba en estado OpenLoop (1900). Ademas es relevante considerar que se hicieron algunas\nmodificacions al circuito segun lo que me dijo Alan: \n \n1. Agregar resistencias en paralelo a los capacitores en el PreAmp. 2. Agregar un pequeño capacitor de 100n para matar las cosas de frecuencia 0 (corriente continua).\n3. Agregar un divisior de tension (resistencia) antes del PreAmp. 4. Agregar una resistencia parásita a la fuente de 50ohm (esto es para ser consistentes con la medición)\n \nEs importante destacar tambien que se usa el PreAmp en la configuracion de menor ganancia (lo que fija el capacitor de adentro a 1.575pF). Ademas se modificó un poco el FS\nen comparación con como estaba para las simulaciones del informe de Agosto, poniendo los valores del datasheet.
+.lib UniversalOpAmp1.lib
+.backanno
+.end
