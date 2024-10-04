@@ -1,0 +1,28 @@
+* C:\Users\smili\OneDrive\Documents\GitHub\Laboratorio_6_7_ITeDA\LTSpice\Octubre - Test Circuitos en configuración NO Inversor\bode_circuito_completo_con_capacitores_en_preamp_inversor_v1,5.asc
+R1 N002 N003 500
+R2 Out_FS N002 25k
+V1 N005 0 5
+XU1 0 N002 N005 N007 Out_FS level1 Avol=1900 GBW=897.0831Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R3 0 Out_FS 50
+C1 N003 Out_PreAmp 5p
+C2 Out_FS N002 100f
+V2 N004 0 5
+V3 N006 0 -5
+XU2 0 N001 N004 N006 Out_PreAmp level1 Avol=1900 GBW=897.0831Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+V4 Input_bode 0 0 AC 0.001 0 Rser=50
+C3 N001 Input_bode 15p
+C4 Out_PreAmp N001 1.575p
+R4 Input_bode 0 53.6
+R5 Out_PreAmp N001 1Meg
+R6 Input_bode N001 1Meg
+V5 N007 0 -5
+S1 Out 0 Out_FS 0 SW
+V6 N008 0 800m
+R7 N008 Out 10k
+* .tran 200n
+.ac dec 1000 100k 1G
+.model SW SW(Vt=71.25m, Vh=0, Ron=100Meg, Roff=0.001)
+* Los valores que salieron de las simulaciones para el threshold fueron 31.5, 59.7, 82.8
+.lib UniversalOpAmp1.lib
+.backanno
+.end
