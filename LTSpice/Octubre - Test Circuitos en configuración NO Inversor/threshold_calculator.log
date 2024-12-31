@@ -1,6 +1,6 @@
-LTspice 24.0.12 for Windows
-Circuit: * C:\Users\smili\OneDrive\Documents\GitHub\Laboratorio_6_7_ITeDA\LTSpice\Octubre - Test Circuitos en configuración NO Inversor\threshold_calculator.asc
-Start Time: Fri Oct  4 14:57:47 2024
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\Usuario\Documents\Laboratorio_6_7_ITeDA\LTSpice\Octubre - Test Circuitos en configuración NO Inversor\threshold_calculator.asc
+Start Time: Tue Dec 31 17:18:37 2024
 solver = Normal
 Maximum thread count: 12
 
@@ -620,5 +620,5 @@ Measurement: widthpulse
    100	0	0	0
    101	0	0	0
 
-Total elapsed time: 12.925 seconds.
+Total elapsed time: 12.192 seconds.
 

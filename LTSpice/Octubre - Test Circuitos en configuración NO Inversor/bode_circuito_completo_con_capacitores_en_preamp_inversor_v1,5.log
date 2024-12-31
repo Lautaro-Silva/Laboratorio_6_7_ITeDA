@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\Usuario\Documents\Laboratorio_6_7_ITeDA\LTSpice\Octubre - Test Circuitos en configuración NO Inversor\bode_circuito_completo_con_capacitores_en_preamp_inversor_v1,5.asc
-Start Time: Wed Oct 16 14:39:20 2024
+Start Time: Mon Dec 30 18:35:37 2024
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -3974,5 +3974,5 @@ v4: Removing PWL point (0.00459655,0)
 v4: Removing PWL point (0.0045977,0)
 v4: Removing PWL point (0.00459885,0)
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 3300.785 seconds.
+Total elapsed time: 38.207 seconds.
 
